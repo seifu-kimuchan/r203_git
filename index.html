@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta http-equiv="x-ua-compatible" content="IE=edge">
+  <title>タイトル</title>
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+    $(function($){
+      console.log('jQuery実行中')
+    });
+  </script>
+  <script type='text/javascript' src='js/app.js'></script>
+</head>
+<body>
+<header>
+  <div class="header-contents">
+    <h1>jQuery練習</h1>
+  </div>
+</header>
+<div class="main-wrapper">
+  <div class="content_box">
+
+    <h2>入門特集</h2>
+    <ul id="list">
+      <li class="jq">jQuery実践サンプル</li>
+      <li class="js">JavaScript本格入門</li>
+      <li class="jq">10日でおぼえるjQuery</li>
+    </ul>
+
+  </div>
+  <div class="content_box">
+    <div id="env">
+      <h2>jQueryとは？</h2>
+      [<a href="http://jquery.com">本家サイト</a>]
+      <p>
+        jQueryとは、John Resig氏によって開発されたJavaScritpの軽量ライブラリです。<br />
+        ライブラリの本体は、CDNを参照するか、<a href="http://jquery.com/download/">こちら</a>から入手できます。
+      </p>
+      <ul>
+        <li id="html" class="html">HTML基礎</li>
+        <li id="xml" class="xml">基礎XML</li>
+        <li id="js" class="js">JavaScript本格入門</li>
+        <li id="php" class="php">独習PHP 第2版</li>
+      </ul>
+    </div>
+  </div>
+</div>
+<!-- /.main-wrapper -->
+<footer></footer>
+</body>
+</html>
